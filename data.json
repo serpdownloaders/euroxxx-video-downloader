@@ -1,0 +1,213 @@
+{
+  "github_source_repo": "https://github.com/serpcompany/euroxxx-downloader",
+  "serply_link": "https://serp.ly/euroxxx-downloader",
+  "app_name": "Euroxxx Video Downloader",
+  "short_description": "Download & Save Euroxxx Videos Easily for Offline Viewing (Browser Extension)",
+  "long_description": "Downloader for EuroXXX gives users a simple browser-based way to save videos from supported EuroXXX pages. The extension watches for playable media candidates, filters obvious non-video noise, and shows available download options through a clean in-page interface. It works with direct MP4 and HLS streams exposed by EuroXXX and related playback hosts.",
+  "main_video": "",
+  "featured_image": "",
+  "screenshots": [
+    "https://apps.serp.co/media/optimized-products/euroxxx-downloader-fullscreen-01-71c59d145c.webp",
+    "https://apps.serp.co/media/optimized-products/euroxxx-downloader-fullscreen-02-9953187018.webp",
+    "https://apps.serp.co/media/optimized-products/euroxxx-downloader-fullscreen-03-5de8da6080.webp",
+    "https://apps.serp.co/media/optimized-products/euroxxx-downloader-fullscreen-04-5b7d3fb225.webp"
+  ],
+  "chromestore_link": "",
+  "firefoxstore_link": "",
+  "other_links": [],
+  "faqs": [
+    {
+      "question": "How do I download a Euroxxx video?",
+      "answer": "Open a supported Euroxxx page, press play, then use the player download button, extension icon, or right-click menu."
+    },
+    {
+      "question": "What formats can it detect?",
+      "answer": "The extension handles direct MP4 and HLS stream URLs when those are exposed by Euroxxx or related playback hosts."
+    },
+    {
+      "question": "What quality options are available?",
+      "answer": "Quality depends on what the source exposes. The extension attempts to infer resolution from labels, metadata, or URLs and then sort formats where possible."
+    },
+    {
+      "question": "Where are downloads saved?",
+      "answer": "The extension uses an organized Euroxxx download folder in your browser downloads directory."
+    },
+    {
+      "question": "Do I need to press play first?",
+      "answer": "Usually yes. Many pages only expose the final media request after playback starts or player scripts finish loading."
+    },
+    {
+      "question": "Does it use a remote downloader server?",
+      "answer": "No. Authentication and update checks call SERP and GitHub services, while media processing is handled locally by the extension."
+    }
+  ],
+  "permissions": [
+    {
+      "name": "",
+      "description": "Only download content you own or have explicit permission to save"
+    }
+  ],
+  "features": [
+    "In-page download button appears near the video player on supported pages",
+    "Detects media from video tags, metadata, and observed stream requests",
+    "Choose from available quality options when the source exposes them",
+    "Right-click context menu for quick access on page or video elements",
+    "Download progress panel keeps you informed while files save",
+    "In-page download button configured for the EuroXXX player wrapper",
+    "Media detection from video tags, source elements, metadata, and observed requests",
+    "Direct MP4 and HLS stream candidate handling through the shared processing pipeline",
+    "Quality labels from detected resolution where the source exposes them",
+    "Right-click context menu for page and video contexts",
+    "Download progress panel displayed inside the page",
+    "Organized EuroXXX download folder for saved files",
+    "OTP email activation with secure one-time password verification"
+  ],
+  "content": {
+    "why": [
+      "EuroXXX pages often rely on embedded players and hoster flows that hide the actual video stream behind layers of scripts and redirects. Right-clicking and saving usually grabs a thumbnail or a preview clip instead of the real content. Opening developer tools to hunt for the stream URL is tedious and unreliable for most viewers.",
+      "This extension simplifies the process by watching the page for playable media candidates as they appear. It filters out obvious noise like ads, sprites, and thumbnails, then presents you with the real options in a clean popup or player button. You do not need to inspect network requests or copy-paste URLs into third-party downloader sites."
+    ],
+    "how_it_works": [
+      "Install the extension from the latest release.",
+      "Open Euroxxx and go to a supported video page.",
+      "Start playback so the extension can detect the media.",
+      "Open the popup or use the on-page controls.",
+      "Choose the quality option you want.",
+      "Start the download and wait for the MP4 export to finish.",
+      "Save the final file locally."
+    ],
+    "tutorial": [
+      "Open your browser and navigate to a supported Euroxxx video page.",
+      "Press the play button on the video player so the stream becomes active.",
+      "Look for the download button that appears near the player interface.",
+      "Click the download button or open the extension popup from the toolbar.",
+      "Review the detected media options listed in the interface.",
+      "Select your preferred quality from the available choices.",
+      "Click the download button to start saving the file.",
+      "Wait for the download to complete and access the file from your browser downloads."
+    ],
+    "supported_formats": [
+      "Input: Direct MP4 URLs and HLS stream manifests exposed by Euroxxx and related playback hosts",
+      "Output: MP4",
+      "Saved files use MP4 so they are easier to replay on standard media players, move between devices, or archive locally."
+    ],
+    "target_users": [
+      "Euroxxx viewers who want an in-browser download workflow",
+      "Users who prefer extension interfaces over copy-paste downloader sites",
+      "People who need to save videos for offline viewing without third-party software",
+      "Anyone frustrated by right-click save only grabbing thumbnails or previews"
+    ],
+    "use_cases": [
+      "Save a Euroxxx video for offline viewing when traveling or on limited connectivity",
+      "Capture media surfaced through Euroxxx and related hoster pages",
+      "Pick from detected MP4 or HLS candidates when multiple qualities are available",
+      "Use the player button instead of opening developer tools or page source",
+      "Use the right-click menu for quick access without navigating the popup"
+    ],
+    "troubleshooting": [
+      "No download options appear on the page Refresh the page and start playback again. Many streams only become visible after the player begins loading.",
+      "The extension does not detect any media Check that you are on a supported Euroxxx page. Try a different video to confirm the page structure works.",
+      "Downloads fail or stall midway Ensure you have a stable internet connection. The extension processes streams locally and requires consistent bandwidth.",
+      "The player button does not show up Confirm the extension is installed and active. Try reloading the page and pressing play on the video.",
+      "Quality options are limited The extension can only show formats that the source exposes. Some pages only serve a single stream variant."
+    ],
+    "trial_access": [
+      "Includes 3 free downloads so you can test the workflow first",
+      "Email sign-in uses secure one-time password verification",
+      "No credit card required for the trial",
+      "Unlimited downloads are available with a paid license"
+    ],
+    "installation_instructions": [
+      "Open the latest release page.",
+      "Download the correct build for your browser.",
+      "Install the extension.",
+      "Open a supported Euroxxx page.",
+      "Use the popup to detect and download the media."
+    ],
+    "notes": [
+      "Only download content you own or have explicit permission to save",
+      "An internet connection is required for downloads",
+      "This extension is a generated candidate and may require further validation for consistent extraction on all Euroxxx pages",
+      "Quality and format availability depend entirely on what the source page exposes"
+    ],
+    "about": [
+      "Euroxxx is an adult entertainment platform featuring a wide library of European-produced video content. This extension helps users save videos from the platform directly through their browser without relying on third-party downloader sites or complex manual extraction methods."
+    ]
+  },
+  "serpx_link": "https://serpx.link/euroxxx-downloader",
+  "github_topics": [
+    "euroxxx-download",
+    "euroxxx-downloader",
+    "euroxxx-video-downloader",
+    "euroxxx-video-downloader-online",
+    "euroxxx-video-downloader-mac",
+    "euroxxx-video-downloader-window",
+    "euroxxx-video-downloader-free",
+    "euroxxx-video-downloader-extension",
+    "euroxxx-video-downloader-app",
+    "euroxxx-video-downloader-chrome",
+    "euroxxx-video-downloader-from-url",
+    "how-to-download-euroxxx-videos",
+    "how-to-download-euroxxx-videos-mac",
+    "how-to-download-euroxxx-videos-windows",
+    "how-to-download-euroxxx-videos-online",
+    "how-to-download-euroxxx-videos-free",
+    "how-to-download-from-euroxxx",
+    "how-to-download-videos-from-euroxxx",
+    "download-euroxxx-videos",
+    "euroxxx-video-tutorial",
+    "save-euroxxx-videos",
+    "euroxxx-video-content-saver",
+    "how-to-download-euroxxx-videos-for-free"
+  ],
+  "hashtags": [
+    "#EuroxxxDownload",
+    "#EuroxxxDownloader",
+    "#EuroxxxVideoDownloader",
+    "#EuroxxxVideoDownloaderOnline",
+    "#EuroxxxVideoDownloaderMac",
+    "#EuroxxxVideoDownloaderWindow",
+    "#EuroxxxVideoDownloaderFree",
+    "#EuroxxxVideoDownloaderExtension",
+    "#EuroxxxVideoDownloaderApp",
+    "#EuroxxxVideoDownloaderChrome",
+    "#EuroxxxVideoDownloaderFromURL",
+    "#HowToDownloadEuroxxxVideos",
+    "#HowToDownloadEuroxxxVideosMac",
+    "#HowToDownloadEuroxxxVideosWindows",
+    "#HowToDownloadEuroxxxVideosOnline",
+    "#HowToDownloadEuroxxxVideosFree",
+    "#HowToDownloadFromEuroxxx",
+    "#HowToDownloadVideosFromEuroxxx",
+    "#DownloadEuroxxxVideos",
+    "#EuroxxxVideoTutorial",
+    "#SaveEuroxxxVideos",
+    "#EuroxxxVideoContentSaver",
+    "#HowToDownloadEuroxxxVideosForFree"
+  ],
+  "youtube_tags": [
+    "Euroxxx Download",
+    "Euroxxx Downloader",
+    "Euroxxx Video Downloader",
+    "Euroxxx Video Downloader Online",
+    "Euroxxx Video Downloader Mac",
+    "Euroxxx Video Downloader Window",
+    "Euroxxx Video Downloader Free",
+    "Euroxxx Video Downloader Extension",
+    "Euroxxx Video Downloader App",
+    "Euroxxx Video Downloader Chrome",
+    "Euroxxx Video Downloader From URL",
+    "How To Download Euroxxx Videos",
+    "How To Download Euroxxx Videos Mac",
+    "How To Download Euroxxx Videos Windows",
+    "How To Download Euroxxx Videos Online",
+    "How To Download Euroxxx Videos Free",
+    "How To Download From Euroxxx",
+    "How To Download Videos From Euroxxx",
+    "Download Euroxxx Videos",
+    "Euroxxx Video Tutorial",
+    "Save Euroxxx Videos",
+    "Euroxxx Video Content Saver",
+    "How To Download Euroxxx Videos For Free"
+  ]
+}
